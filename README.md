@@ -74,10 +74,10 @@ Recommended reading order:
 
 AISET is an open standards program, and contributions are welcome. Please open an issue to discuss proposed changes before submitting a pull request. Contribution guidelines will be published as the engineering corpus matures.
 
-## License
-
-The license for this project has not been finalized yet. Until a license is published, all rights are reserved by the AISET authors.
-
 ## Mission
 
 > **AISET develops open, technology-independent engineering standards that enable people and intelligent systems to build, maintain, and evolve mutual understanding.**
+
+## License
+
+This project is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) license.
