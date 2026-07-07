@@ -4,23 +4,31 @@
 
 ---
 
-## What is AISET?
+## Table of Contents
 
-AISET is an open engineering standards program that develops a new engineering approach enabling people and independent intelligent systems to establish, maintain and evolve mutual understanding regardless of technologies, implementation methods or future generations of artificial intelligence.
+- [Overview](#overview)
+- [Motivation](#motivation)
+- [The Engineering Challenge](#the-engineering-challenge)
+- [Why Now](#why-now)
+- [Guiding Principles](#guiding-principles)
+- [Project Status](#project-status)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
 
-Rather than standardizing how intelligence is implemented, AISET standardizes the engineering principles that enable independent systems to build, maintain and evolve mutual understanding.
+## Overview
 
-## Why AISET?
+AISET is an open engineering standards program. It develops an engineering approach that enables people and independent intelligent systems to establish, maintain, and evolve mutual understanding — regardless of underlying technologies, implementation methods, or future generations of artificial intelligence.
 
-People and intelligent systems already know how to exchange information.
+Rather than standardizing how intelligence is implemented, AISET standardizes the engineering principles that allow independent systems to build, maintain, and evolve mutual understanding.
 
-The next engineering challenge is enabling them to truly understand one another.
+## Motivation
 
-AISET exists to address this challenge.
+People and intelligent systems already know how to exchange information. The next engineering challenge is enabling them to genuinely understand one another. AISET exists to address that challenge.
 
-## The AISET Discovery
+The program is built on a single core insight:
 
-> **Mutual understanding is not an accidental consequence of communication. It is an engineering objective that can be intentionally designed, standardized and continuously improved.**
+> **Mutual understanding is not an accidental by-product of communication. It is an engineering objective that can be deliberately designed, standardized, and continuously improved.**
 
 ## The Engineering Challenge
 
@@ -32,47 +40,44 @@ AISET asks:
 
 > **How can independent systems understand the same situation in the same way?**
 
-Communication enables interaction.
+Communication enables interaction. **Understanding enables collaboration.**
 
-**Understanding enables collaboration.**
+## Why Now
 
-## Why Now?
+Artificial intelligence has dramatically increased the capability of individual systems. The next challenge is enabling those increasingly capable systems to reliably understand one another and coordinate their decisions.
 
-Artificial intelligence increased the capability of individual systems.
+The twenty-first-century economy is gradually shifting from the challenge of computation to the challenge of coordination. AISET provides an infrastructure-level engineering approach to this emerging challenge.
 
-AISET addresses the next engineering challenge:
+## Guiding Principles
 
-> **Enabling those increasingly capable systems to reliably understand one another and coordinate their decisions.**
-
-## Coordination Economy
-
-The twenty-first century economy is gradually moving from the challenge of computation toward the challenge of coordination.
-
-AISET provides an infrastructure-level engineering approach to this emerging challenge.
-
-## Engineering Culture
-
-AISET promotes a new engineering culture in which mutual understanding is treated as a first-class engineering resource alongside reliability, safety, security and interoperability.
-
-## Engineering Beyond Technology
-
-Engineering ideas should outlive the technologies that first inspired them.
-
-AISET is intentionally designed to remain meaningful across future generations of technologies and artificial intelligence.
+- **Understanding as a first-class resource.** AISET promotes an engineering culture in which mutual understanding is treated as a first-class engineering concern, alongside reliability, safety, security, and interoperability.
+- **Engineering beyond technology.** Engineering ideas should outlive the technologies that first inspired them. AISET is deliberately designed to remain meaningful across future generations of technologies and artificial intelligence.
+- **Technology independence.** The standards describe principles, not implementations, so they apply equally to any system architecture.
 
 ## Project Status
 
-**Discovery Phase:** Complete
+| Phase | Status |
+| --- | --- |
+| Discovery | ✅ Complete |
+| Engineering Corpus Production | 🚧 In progress |
 
-**Current Phase:** Engineering Corpus Production
+## Documentation
 
-## Start Here
+Recommended reading order:
 
-- START-HERE.md
-- DISCOVERY-0001
-- VALUE-0001
-- VISION-0001
+1. [START-HERE.md](START-HERE.md) — orientation guide for new readers
+2. [DISCOVERY-0001](DISCOVERY-0001) — the foundational discovery
+3. [VALUE-0001](VALUE-0001) — the value proposition
+4. [VISION-0001](VISION-0001) — the long-term vision
+
+## Contributing
+
+AISET is an open standards program, and contributions are welcome. Please open an issue to discuss proposed changes before submitting a pull request. Contribution guidelines will be published as the engineering corpus matures.
+
+## License
+
+The license for this project has not been finalized yet. Until a license is published, all rights are reserved by the AISET authors.
 
 ## Mission
 
-> **AISET develops open, technology-independent engineering standards that enable people and intelligent systems to build, maintain and evolve mutual understanding.**
+> **AISET develops open, technology-independent engineering standards that enable people and intelligent systems to build, maintain, and evolve mutual understanding.**
