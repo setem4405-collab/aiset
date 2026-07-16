@@ -119,13 +119,15 @@ Detailed citation formats are available in:
 - [CITATION.md](publications/DISCOVERY-0001/CITATION.md)
 - [CITATION.bib](publications/DISCOVERY-0001/CITATION.bib)
 
-## License
+## Licensing
 
 Copyright © 2026 AISET Program.
 
-AISET publications and documentation are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
+AISET publications, specifications, architectural documents, and other non-software materials are licensed under the [Creative Commons Attribution 4.0 International License](LICENSES/CC-BY-4.0.txt), unless explicitly stated otherwise.
 
-Software source code may be released under a separate software license defined for the applicable implementation.
+Software source code and executable implementations are licensed separately. The applicable software license will be identified within each software component.
+
+See the repository [Licensing Notice](LICENSE) and the [Software Licensing Notice](LICENSES/SOFTWARE-LICENSE-NOTICE.md).
 
 ## Canonical Website
 
