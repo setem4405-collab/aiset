@@ -1,83 +1,132 @@
 # AISET
 
-> **AISET is not another AI technology. It is an infrastructure-level engineering standards program for the coordination economy, enabling reliable mutual understanding among independent systems.**
+**AISET** is an open, technology-independent engineering program for standardizing cognitive context transformations.
 
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Motivation](#motivation)
-- [The Engineering Challenge](#the-engineering-challenge)
-- [Why Now](#why-now)
-- [Guiding Principles](#guiding-principles)
-- [Project Status](#project-status)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-
-AISET is an open engineering standards program. It develops an engineering approach that enables people and independent intelligent systems to establish, maintain, and evolve mutual understanding — regardless of underlying technologies, implementation methods, or future generations of artificial intelligence.
-
-Rather than standardizing how intelligence is implemented, AISET standardizes the engineering principles that allow independent systems to build, maintain, and evolve mutual understanding.
-
-## Motivation
-
-People and intelligent systems already know how to exchange information. The next engineering challenge is enabling them to genuinely understand one another. AISET exists to address that challenge.
-
-The program is built on a single core insight:
-
-> **Mutual understanding is not an accidental by-product of communication. It is an engineering objective that can be deliberately designed, standardized, and continuously improved.**
-
-## The Engineering Challenge
-
-Traditional engineering asks:
-
-> How can systems communicate?
-
-AISET asks:
-
-> **How can independent systems understand the same situation in the same way?**
-
-Communication enables interaction. **Understanding enables collaboration.**
-
-## Why Now
-
-Artificial intelligence has dramatically increased the capability of individual systems. The next challenge is enabling those increasingly capable systems to reliably understand one another and coordinate their decisions.
-
-The twenty-first-century economy is gradually shifting from the challenge of computation to the challenge of coordination. AISET provides an infrastructure-level engineering approach to this emerging challenge.
-
-## Guiding Principles
-
-- **Understanding as a first-class resource.** AISET promotes an engineering culture in which mutual understanding is treated as a first-class engineering concern, alongside reliability, safety, security, and interoperability.
-- **Engineering beyond technology.** Engineering ideas should outlive the technologies that first inspired them. AISET is deliberately designed to remain meaningful across future generations of technologies and artificial intelligence.
-- **Technology independence.** The standards describe principles, not implementations, so they apply equally to any system architecture.
-
-## Project Status
-
-| Phase | Status |
-| --- | --- |
-| Discovery | ✅ Complete |
-| Engineering Corpus Production | 🚧 In progress |
-
-## Documentation
-
-Recommended reading order:
-
-1. [START-HERE.md](START-HERE.md) — orientation guide for new readers
-2. [DISCOVERY-0001](DISCOVERY-0001) — the foundational discovery
-3. [VALUE-0001](VALUE-0001) — the value proposition
-4. [VISION-0001](VISION-0001) — the long-term vision
-
-## Contributing
-
-AISET is an open standards program, and contributions are welcome. Please open an issue to discuss proposed changes before submitting a pull request. Contribution guidelines will be published as the engineering corpus matures.
+AISET does not standardize intelligence. It standardizes the architectural conditions under which cognitive state can be represented, transformed, validated, trusted, measured, shared, composed, and evolved across heterogeneous technologies, implementations, people, and organizations.
 
 ## Mission
 
-> **AISET develops open, technology-independent engineering standards that enable people and intelligent systems to build, maintain, and evolve mutual understanding.**
+> Standardizing the Architecture of Cognitive Context Transformations.
+
+AISET develops vendor-neutral engineering knowledge, reference architectures, specifications, registries, and implementation guidance for reliable cognitive context processing and shared cognitive evolution.
+
+## Program Originator
+
+**Arkadiy Lazarev**
+
+Arkadiy Lazarev is the Program Originator, Author, and Lead Editor of the foundational AISET publications.
+
+## Publications
+
+### DISCOVERY-0001 — AISET Discovery
+
+The first approved AISET Discovery Reference Publication.
+
+It documents why AISET emerged and how the AISET Foundation Architecture developed from a progressively demonstrated engineering necessity.
+
+- [Publication overview](publications/DISCOVERY-0001/README.md)
+- [DISCOVERY-0001 v1.0](publications/DISCOVERY-0001/DISCOVERY-0001-v1.0.md)
+- [Authorship record](publications/DISCOVERY-0001/AUTHORSHIP.md)
+- [Citation information](publications/DISCOVERY-0001/CITATION.md)
+- [Release manifest](publications/DISCOVERY-0001/RELEASE-MANIFEST.md)
+- [Publisher Review Record](publications/DISCOVERY-0001/reviews/PUBLISHER-REVIEW-RECORD.md)
+- [Reference Publication Review](publications/DISCOVERY-0001/reviews/REFERENCE-PUBLICATION-REVIEW.md)
+- [GitHub Release](https://github.com/setem4405-collab/aiset/releases/tag/discovery-0001-v1.0)
+
+**Version:** 1.0
+
+**Status:** Reference Publication
+
+**Publication Date:** 16 July 2026
+
+**Publisher:** AISET Program
+
+**Author, Program Originator, and Lead Editor:** Arkadiy Lazarev
+
+**SHA-256:**
+
+```text
+82f0f3a2261dee9c737748832d94e37d8006fa8ec8d6cbc57b89b672b177b1bf
+```
+
+## Architectural Direction
+
+The AISET Foundation Architecture is centered on the following concepts:
+
+- Cognitive Context Object;
+- Cognitive Transformation;
+- Cognitive Transformation Specification;
+- Cognitive Invariants;
+- Cognitive Processing Cycle;
+- Shared Cognitive Evolution;
+- Cognitive Compatibility and Interoperability;
+- Cognitive Trust and Provenance;
+- Cognitive Metrics;
+- Directed Cognitive Graphs;
+- Cognitive Context Evolution;
+- Cognitive Interfaces and Contracts;
+- Cognitive Portability and Composition.
+
+AISET treats models, software systems, services, and human participants as replaceable executors of governed Cognitive Transformations.
+
+## Core Principles
+
+AISET is developed according to the following architectural principles:
+
+1. Technology Independence;
+2. Context First;
+3. Shared Context;
+4. Cognitive Compatibility;
+5. Cognitive Interoperability;
+6. Cognitive Portability;
+7. Explicit Trust and Provenance;
+8. Independent Measurement;
+9. Governed Context Evolution.
+
+## Repository Structure
+
+```text
+aiset/
+├── publications/
+│   └── DISCOVERY-0001/
+├── specifications/
+├── governance/
+├── schemas/
+├── implementations/
+└── registry/
+```
+
+Additional directories will be introduced as the corresponding AISET publications, specifications, schemas, and reference implementations are developed.
+
+## Planned Publication Sequence
+
+1. `DISCOVERY-0001` — AISET Discovery;
+2. `PROGRAM-0001` — AISET Program Charter;
+3. `AAR-0001` — AISET Architecture Reference;
+4. `ARI-0001` — AISET Architecture Reference Implementation;
+5. AISET Business Reference Model.
+
+The sequence may evolve through the AISET publication and governance process.
+
+## Citation
+
+Recommended citation for the first publication:
+
+> Lazarev, Arkadiy. *DISCOVERY-0001 — AISET Discovery*. Version 1.0. AISET Program, 2026.
+
+Detailed citation formats are available in:
+
+- [CITATION.md](publications/DISCOVERY-0001/CITATION.md)
+- [CITATION.bib](publications/DISCOVERY-0001/CITATION.bib)
 
 ## License
 
-This project is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) license.
+Copyright © 2026 AISET Program.
+
+AISET publications and documentation are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
+
+Software source code may be released under a separate software license defined for the applicable implementation.
+
+## Canonical Website
+
+[aisetcfs.com](https://aisetcfs.com)
