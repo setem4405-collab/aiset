@@ -1,0 +1,52 @@
+schema_version: "1.0"
+
+publication:
+  id: "DISCOVERY-0001"
+  title: "AISET Discovery"
+  version: "1.0"
+  edition: "Foundation Edition"
+  class: "Discovery Reference Publication"
+  status: "published"
+  language: "en"
+  publication_date: "2026-07-16"
+
+authorship:
+  authors:
+    - given_names: "Arkadiy"
+      family_names: "Lazarev"
+      full_name: "Arkadiy Lazarev"
+      affiliation: "AISET Program"
+      roles:
+        - "Author"
+        - "Program Originator"
+        - "Lead Editor"
+
+publisher:
+  name: "AISET Program"
+
+license:
+  identifier: "CC-BY-4.0"
+  name: "Creative Commons Attribution 4.0 International"
+  url: "https://creativecommons.org/licenses/by/4.0/"
+
+release:
+  tag: "discovery-0001-v1.0"
+  artifact: "DISCOVERY-0001-v1.0.md"
+  checksum_algorithm: "SHA-256"
+  checksum: "82f0f3a2261dee9c737748832d94e37d8006fa8ec8d6cbc57b89b672b177b1bf"
+
+canonical_locations:
+  repository_path: "publications/DISCOVERY-0001/"
+  public_page: "https://aisetcfs.com/publications/DISCOVERY-0001"
+
+relationships:
+  explains:
+    - "AISET Foundation Architecture"
+  precedes:
+    - "PROGRAM-0001"
+    - "AAR-0001"
+
+review:
+  reference_publication_review: "passed"
+  publisher_review: "passed"
+  release_authorization: "approved"
