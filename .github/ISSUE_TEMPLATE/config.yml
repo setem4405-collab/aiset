@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: AISET Security Policy
+    url: https://github.com/setem4405-collab/aiset/security/policy
+    about: Review the security reporting guidance before disclosing a potential vulnerability.
+
+  - name: AISET Contribution Guidelines
+    url: https://github.com/setem4405-collab/aiset/blob/master/CONTRIBUTING.md
+    about: Review contribution requirements before proposing substantial changes.
+
+  - name: AISET Publications
+    url: https://github.com/setem4405-collab/aiset/blob/master/publications/README.md
+    about: Review approved publications and publication records.
