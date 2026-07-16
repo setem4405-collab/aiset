@@ -87,16 +87,40 @@ AISET is developed according to the following architectural principles:
 
 ```text
 aiset/
+├── program/
 ├── publications/
-│   └── DISCOVERY-0001/
-├── specifications/
 ├── governance/
+├── specifications/
+├── registry/
 ├── schemas/
 ├── implementations/
-└── registry/
+├── LICENSES/
+├── LICENSE
+└── README.md
 ```
 
-Additional directories will be introduced as the corresponding AISET publications, specifications, schemas, and reference implementations are developed.
+## Repository Navigation
+
+- [AISET Program](program/README.md)
+- [Publications](publications/README.md)
+- [Governance](governance/README.md)
+- [Specifications](specifications/README.md)
+- [Registry](registry/README.md)
+- [Schemas](schemas/README.md)
+- [Implementations](implementations/README.md)
+- [Repository Licensing Notice](LICENSE)
+- [License Files](LICENSES/)
+
+Each directory has a distinct role:
+
+- `program/` contains program-level documents and future program charters;
+- `publications/` contains approved AISET publications and release artifacts;
+- `governance/` contains governance principles, lifecycle rules, and publication procedures;
+- `specifications/` contains normative and supporting specifications;
+- `registry/` contains stable identifiers and machine-readable registry records;
+- `schemas/` contains validation schemas and structured data definitions;
+- `implementations/` contains reference implementations, tools, adapters, and test artifacts;
+- `LICENSES/` contains full license texts and licensing notices.
 
 ## Planned Publication Sequence
 
