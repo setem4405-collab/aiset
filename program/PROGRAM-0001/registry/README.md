@@ -54,7 +54,7 @@ This record preserves the first formally registered Review version.
 
 **Lifecycle Status:** Review
 
-**Record Status:** Active
+**Record Status:** Superseded
 
 **Previous Registry Record:** PROGRAM-0001-REGISTRY-001
 
@@ -64,7 +64,29 @@ This record preserves the first formally registered Review version.
 
 `PROGRAM-0001-v0.6-review-registry-record.md`
 
-This record establishes `PROGRAM-0001 v0.6 Review` as the current registered Review version.
+This record preserves registration of the previous active Review version.
+
+---
+
+### 2.3 PROGRAM-0001-REGISTRY-003
+
+**Registered Object:** PROGRAM-0001 — AISET Program Charter
+
+**Registered Version:** PROGRAM-0001 v0.8 Review
+
+**Lifecycle Status:** Review
+
+**Record Status:** Active
+
+**Previous Registry Record:** PROGRAM-0001-REGISTRY-002
+
+**Registration Basis:** PROGRAM-0001-REVIEW-006
+
+**File:**
+
+`PROGRAM-0001-registry-record-003.md`
+
+This record establishes `PROGRAM-0001 v0.8 Review` as the current registered Review version.
 
 ---
 
@@ -72,11 +94,11 @@ This record establishes `PROGRAM-0001 v0.6 Review` as the current registered Rev
 
 The current registered document is:
 
-`program/PROGRAM-0001/PROGRAM-0001-v0.6-review.md`
+`program/PROGRAM-0001/PROGRAM-0001-v0.8-review.md`
 
 The current active registry record is:
 
-`PROGRAM-0001-REGISTRY-002`
+`PROGRAM-0001-REGISTRY-003`
 
 The registered lifecycle status is:
 
@@ -97,30 +119,33 @@ The current registry sequence is:
 
 1. `PROGRAM-0001-REGISTRY-001`
 2. `PROGRAM-0001-REGISTRY-002`
+3. `PROGRAM-0001-REGISTRY-003`
 
-`PROGRAM-0001-REGISTRY-002` supersedes `PROGRAM-0001-REGISTRY-001` as the active registry record.
+`PROGRAM-0001-REGISTRY-003` supersedes `PROGRAM-0001-REGISTRY-002` as the active registry record.
 
-The previous registry record remains valid as a historical record and must remain discoverable.
+`PROGRAM-0001-REGISTRY-002` previously superseded `PROGRAM-0001-REGISTRY-001`.
 
-Supersession does not erase or retroactively modify the earlier registered state.
+Earlier registry records remain valid as historical records and must remain discoverable.
+
+Supersession does not erase or retroactively modify an earlier registered state.
 
 ---
 
 ## 5. Supporting Lifecycle Records
 
-The registration of `PROGRAM-0001 v0.6 Review` is supported by:
+The registration of `PROGRAM-0001 v0.8 Review` is supported by:
 
-**Verification Review:**
+**Governance and Editorial Re-review:**
 
-`program/PROGRAM-0001/reviews/PROGRAM-0001-v0.5-normative-verification-review-004.md`
+`program/PROGRAM-0001/reviews/PROGRAM-0001-v0.7-governance-editorial-rereview-006.md`
 
 **Publisher Acknowledgment:**
 
-`program/PROGRAM-0001/reviews/PROGRAM-0001-v0.6-publisher-transition-acknowledgment-002.md`
+`program/PROGRAM-0001/publisher/PROGRAM-0001-publisher-acknowledgment-003.md`
 
 **Previous Registry Record:**
 
-`program/PROGRAM-0001/registry/PROGRAM-0001-v0.3-review-registry-record.md`
+`program/PROGRAM-0001/registry/PROGRAM-0001-v0.6-review-registry-record.md`
 
 ---
 
@@ -185,6 +210,10 @@ Checksums may be introduced for Candidate Publication or later release states.
 **Review directory:**
 
 `program/PROGRAM-0001/reviews/`
+
+**Publisher directory:**
+
+`program/PROGRAM-0001/publisher/`
 
 ---
 
