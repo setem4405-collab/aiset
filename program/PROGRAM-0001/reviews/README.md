@@ -49,6 +49,8 @@ The current review sequence is:
 4. `PROGRAM-0001-REVIEW-004`
 5. `PROGRAM-0001-REVIEW-005`
 6. `PROGRAM-0001-REVIEW-006`
+7. `PROGRAM-0001-REVIEW-007`
+8. `PROGRAM-0001-REVIEW-008`
 
 Publisher acknowledgments are indexed separately in:
 
@@ -146,6 +148,38 @@ Publisher acknowledgments are indexed separately in:
 
 ---
 
+### 3.7 PROGRAM-0001-REVIEW-007
+
+**Title:** Security and Privacy Review
+
+**Reviewed Version:** PROGRAM-0001 v0.8 Review
+
+**Outcome:** Targeted security and privacy revision required
+
+**Blocking Findings:** SEC-001 and SEC-002
+
+**File:**
+
+`PROGRAM-0001-v0.8-security-privacy-review-007.md`
+
+---
+
+### 3.8 PROGRAM-0001-REVIEW-008
+
+**Title:** Security, Privacy, Governance, and Editorial Re-review
+
+**Reviewed Version:** PROGRAM-0001 v0.9 Draft
+
+**Outcome:** Previous blocking findings resolved; return to formal Review permitted
+
+**Recommended Next Version:** PROGRAM-0001 v1.0 Review
+
+**File:**
+
+`PROGRAM-0001-v0.9-security-privacy-governance-editorial-rereview-008.md`
+
+---
+
 ## 4. Legacy Publisher Acknowledgments
 
 The following Publisher acknowledgment records remain at their historical locations in this directory.
@@ -190,26 +224,26 @@ New Publisher acknowledgments are maintained in:
 
 The current formal Review version is:
 
-`PROGRAM-0001 v0.8 Review`
+`PROGRAM-0001 v1.0 Review`
 
 The current supporting review is:
 
-`PROGRAM-0001-REVIEW-006`
+`PROGRAM-0001-REVIEW-008`
 
 That review determined that:
 
 - both previous blocking findings were resolved;
 - no new blocking finding was identified;
 - return to formal Review is permitted;
-- security and privacy review may proceed;
 - direct progression to Candidate Publication is not yet permitted.
 
 The following non-blocking matters remain:
 
 - `ED-002 — Normative and Informative Boundaries`;
 - `ED-003 — Cross-Reference Precision`;
-- `NEW-001 — Foundation-stage Exception Authority`;
-- `NEW-002 — Lifecycle List Alignment`.
+- `NEW-003 — Operational Record Specifications`;
+- `NEW-004 — Checksum Algorithm Policy`;
+- `NEW-005 — Independent Review Availability`.
 
 The document has not yet reached:
 
@@ -222,26 +256,15 @@ The document has not yet reached:
 
 ## 6. Next Review Stage
 
-The next intended review stage is a dedicated security and privacy review of:
+The next intended review-stage work is:
 
-`PROGRAM-0001 v0.8 Review`
+- preparation of operational record templates or a consolidated operational record specification;
+- definition of checksum algorithm policy;
+- real independent or second-party review;
+- final disposition of remaining non-blocking findings;
+- Candidate Publication readiness assessment.
 
-The review should evaluate, at minimum:
-
-- governance-record confidentiality;
-- personal data in contribution and appeal records;
-- restricted security reports;
-- repository and registry compromise;
-- credential compromise;
-- emergency authority abuse;
-- artifact integrity;
-- retention and deletion;
-- transparency exceptions;
-- incident disclosure;
-- continuity and recovery;
-- malicious participation and governance capture.
-
-Independent or second-party review remains required before Candidate Publication.
+The current internal review record does not satisfy the independent or second-party review requirement by itself.
 
 ---
 

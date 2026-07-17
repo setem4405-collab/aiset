@@ -42,8 +42,6 @@ Registration alone does not establish final approval unless the applicable recor
 
 `PROGRAM-0001-v0.3-review-registry-record.md`
 
-This record preserves the first formally registered Review version.
-
 ---
 
 ### 2.2 PROGRAM-0001-REGISTRY-002
@@ -64,8 +62,6 @@ This record preserves the first formally registered Review version.
 
 `PROGRAM-0001-v0.6-review-registry-record.md`
 
-This record preserves registration of the previous active Review version.
-
 ---
 
 ### 2.3 PROGRAM-0001-REGISTRY-003
@@ -76,7 +72,7 @@ This record preserves registration of the previous active Review version.
 
 **Lifecycle Status:** Review
 
-**Record Status:** Active
+**Record Status:** Superseded
 
 **Previous Registry Record:** PROGRAM-0001-REGISTRY-002
 
@@ -86,7 +82,27 @@ This record preserves registration of the previous active Review version.
 
 `PROGRAM-0001-registry-record-003.md`
 
-This record establishes `PROGRAM-0001 v0.8 Review` as the current registered Review version.
+---
+
+### 2.4 PROGRAM-0001-REGISTRY-004
+
+**Registered Object:** PROGRAM-0001 — AISET Program Charter
+
+**Registered Version:** PROGRAM-0001 v1.0 Review
+
+**Lifecycle Status:** Review
+
+**Record Status:** Active
+
+**Previous Registry Record:** PROGRAM-0001-REGISTRY-003
+
+**Registration Basis:** PROGRAM-0001-REVIEW-008
+
+**File:**
+
+`PROGRAM-0001-registry-record-004.md`
+
+This record establishes `PROGRAM-0001 v1.0 Review` as the current registered Review version.
 
 ---
 
@@ -94,11 +110,11 @@ This record establishes `PROGRAM-0001 v0.8 Review` as the current registered Rev
 
 The current registered document is:
 
-`program/PROGRAM-0001/PROGRAM-0001-v0.8-review.md`
+`program/PROGRAM-0001/PROGRAM-0001-v1.0-review.md`
 
 The current active registry record is:
 
-`PROGRAM-0001-REGISTRY-003`
+`PROGRAM-0001-REGISTRY-004`
 
 The registered lifecycle status is:
 
@@ -120,10 +136,9 @@ The current registry sequence is:
 1. `PROGRAM-0001-REGISTRY-001`
 2. `PROGRAM-0001-REGISTRY-002`
 3. `PROGRAM-0001-REGISTRY-003`
+4. `PROGRAM-0001-REGISTRY-004`
 
-`PROGRAM-0001-REGISTRY-003` supersedes `PROGRAM-0001-REGISTRY-002` as the active registry record.
-
-`PROGRAM-0001-REGISTRY-002` previously superseded `PROGRAM-0001-REGISTRY-001`.
+`PROGRAM-0001-REGISTRY-004` supersedes `PROGRAM-0001-REGISTRY-003` as the active registry record.
 
 Earlier registry records remain valid as historical records and must remain discoverable.
 
@@ -133,19 +148,19 @@ Supersession does not erase or retroactively modify an earlier registered state.
 
 ## 5. Supporting Lifecycle Records
 
-The registration of `PROGRAM-0001 v0.8 Review` is supported by:
+The registration of `PROGRAM-0001 v1.0 Review` is supported by:
 
-**Governance and Editorial Re-review:**
+**Security, Privacy, Governance, and Editorial Re-review:**
 
-`program/PROGRAM-0001/reviews/PROGRAM-0001-v0.7-governance-editorial-rereview-006.md`
+`program/PROGRAM-0001/reviews/PROGRAM-0001-v0.9-security-privacy-governance-editorial-rereview-008.md`
 
 **Publisher Acknowledgment:**
 
-`program/PROGRAM-0001/publisher/PROGRAM-0001-publisher-acknowledgment-003.md`
+`program/PROGRAM-0001/publisher/PROGRAM-0001-publisher-acknowledgment-004.md`
 
 **Previous Registry Record:**
 
-`program/PROGRAM-0001/registry/PROGRAM-0001-v0.6-review-registry-record.md`
+`program/PROGRAM-0001/registry/PROGRAM-0001-registry-record-003.md`
 
 ---
 
@@ -174,7 +189,7 @@ A registry record must not alter the normative meaning of the registered documen
 
 Once committed and published, a registry record must not be silently modified or replaced.
 
-Material changes require one of the following:
+Material changes require one of:
 
 - a new registry record;
 - a correction record;
@@ -185,7 +200,7 @@ Registered documents and their registry records must remain independently discov
 
 Repository history may provide supporting provenance but does not replace explicit registry records.
 
-Checksums may be introduced for Candidate Publication or later release states.
+Candidate Publication requires cryptographic checksum evidence and registry binding under the Charter.
 
 ---
 
@@ -230,7 +245,7 @@ It does not mean that the document is:
 - externally certified;
 - an AISET Reference Publication.
 
-Any lifecycle progression must be supported by the applicable review, registry, decision, and Publisher records.
+Any lifecycle progression must be supported by the applicable review, integrity, registry, decision, and Publisher records.
 
 ---
 

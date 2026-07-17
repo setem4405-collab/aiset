@@ -29,6 +29,7 @@ The current Publisher acknowledgment sequence is:
 1. `PROGRAM-0001-PUBLISHER-ACK-001`
 2. `PROGRAM-0001-PUBLISHER-ACK-002`
 3. `PROGRAM-0001-PUBLISHER-ACK-003`
+4. `PROGRAM-0001-PUBLISHER-ACK-004`
 
 The first two acknowledgments remain at their historical locations in:
 
@@ -82,13 +83,31 @@ New Publisher acknowledgment records are maintained in this directory.
 
 **Registry Basis:** PROGRAM-0001-REGISTRY-003
 
-**Acknowledgment Status:** Active
+**Acknowledgment Status:** Superseded
 
 **File:**
 
 `PROGRAM-0001-publisher-acknowledgment-003.md`
 
-This acknowledgment recognizes `PROGRAM-0001 v0.8 Review` as the current active Review version.
+---
+
+### 3.4 PROGRAM-0001-PUBLISHER-ACK-004
+
+**Acknowledged Version:** PROGRAM-0001 v1.0 Review
+
+**Transition:** PROGRAM-0001 v0.9 Draft to PROGRAM-0001 v1.0 Review
+
+**Review Basis:** PROGRAM-0001-REVIEW-008
+
+**Registry Basis:** PROGRAM-0001-REGISTRY-004
+
+**Acknowledgment Status:** Active
+
+**File:**
+
+`PROGRAM-0001-publisher-acknowledgment-004.md`
+
+This acknowledgment recognizes `PROGRAM-0001 v1.0 Review` as the current active Review version.
 
 ---
 
@@ -96,15 +115,15 @@ This acknowledgment recognizes `PROGRAM-0001 v0.8 Review` as the current active 
 
 The current Publisher-recognized version is:
 
-`PROGRAM-0001 v0.8 Review`
+`PROGRAM-0001 v1.0 Review`
 
 The current active Publisher acknowledgment is:
 
-`PROGRAM-0001-PUBLISHER-ACK-003`
+`PROGRAM-0001-PUBLISHER-ACK-004`
 
 The recognized registry record is:
 
-`PROGRAM-0001-REGISTRY-003`
+`PROGRAM-0001-REGISTRY-004`
 
 The current lifecycle status is:
 
@@ -123,17 +142,19 @@ The Publisher has not authorized:
 
 Before Candidate Publication readiness may be established, applicable requirements include:
 
-- dedicated security and privacy review;
-- resolution or formal disposition of `NEW-001 — Foundation-stage Exception Authority`;
-- lifecycle-list alignment;
-- independent or second-party review;
+- operational record specifications or templates;
+- checksum algorithm policy;
+- final disposition of `ED-002`;
+- final disposition of `ED-003`;
+- real independent or second-party review;
 - Candidate Publication readiness evidence;
+- artifact integrity evidence;
 - conflict and role disclosures;
 - registry readiness;
 - Publisher readiness;
-- applicable artifact integrity evidence.
+- applicable approval records.
 
-A later lifecycle transition requires separate review, decision, registry, and Publisher records.
+A later lifecycle transition requires separate review, integrity, decision, registry, and Publisher records.
 
 ---
 
