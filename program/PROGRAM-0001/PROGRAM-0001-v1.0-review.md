@@ -527,9 +527,15 @@ A person acting as principal Author **MAY** prepare, explain, internally review,
 
 Candidate Publication of a material normative revision **MUST** receive documented confirmation from at least one Reviewer who is not the sole Author of that revision.
 
-Final approval of a material normative publication **MUST** include either confirmation by an Approval Authority distinct from the sole Author, approval by an authorized governance body, or a documented foundation-stage exception approved under a higher-level governance rule.
+Final approval of a material normative publication **MUST** include either confirmation by an Approval Authority distinct from the sole Author or approval by an authorized governance body whose approving participants are not materially controlled by the sole Author.
 
-A foundation-stage exception **MUST** disclose the overlapping roles, why separation was not practicable, the resulting risks, compensating review measures, the authority granting the exception, and its period of application.
+A foundation-stage exception **MUST NOT** substitute for the independent final-approval condition in the preceding paragraph.
+
+A higher-level governance rule affecting final approval, authority separation, delegation, or exception authority **MUST NOT** be created, approved, interpreted, or activated solely by the same person whose authority would be expanded, validated, or exempted by that rule.
+
+Any foundation-stage exception affecting final approval or authority separation **MUST** receive documented confirmation from at least one independent or second-party Reviewer who is not the Program Originator, sole Author, proposed delegate, or a person materially controlled by any of them.
+
+A foundation-stage exception **MUST** disclose the overlapping roles, why separation was not practicable, the resulting risks, compensating review measures, the authority granting the exception, the confirming Reviewer, and its period of application.
 
 ### 12.12 Delegation
 
@@ -570,15 +576,26 @@ A foundation-stage record **MUST** identify relevant role overlap.
 
 ### 13.2 Transition Beyond Foundation-stage Governance
 
-Before the first final approval of `PROGRAM-0001`, the Program **MUST** establish or designate an Approval Authority, an appeal or reconsideration authority, a conflict-of-interest decision process, a registry administration process, a Publisher authorization process, and continuity and succession arrangements.
+Before the first final approval of `PROGRAM-0001`, the Program **MUST** establish or designate an Approval Authority distinct from the Program Originator, an appeal or reconsideration authority, a conflict-of-interest decision process, a registry administration process, a Publisher authorization process, and continuity and succession arrangements.
 
-Candidate Publication **MUST** include at least one reviewer who is not the sole Author of the reviewed normative revision.
+Candidate Publication **MUST** include at least one Reviewer who is not the sole Author of the reviewed normative revision.
+
+Foundation-stage exception authority **MUST** expire automatically upon the earlier of:
+
+- the first Approved Publication of `PROGRAM-0001`; or
+- establishment of an Approval Authority distinct from the Program Originator.
+
+After that trigger, no foundation-stage role overlap, delegation, exception, registry action, or Publisher acknowledgment **MAY** be used to satisfy a requirement for independent approval.
 
 ### 13.3 Authority Delegation
 
 Future governance documents **MAY** delegate authority, create review bodies, establish working groups, create a registry authority, establish a publication council, define succession procedures, establish independent review panels, or create temporary emergency authorities.
 
 A delegation **MUST** comply with Section 12.12.
+
+Delegation affecting review, approval, exception, registry-precedence, or Publisher authority **MUST NOT** be made to the delegating person acting under another role title, to an affiliate acting under that person’s material control, or to a body whose effective decision is controlled by that person.
+
+A delegation **MUST NOT** be used to convert a non-independent action into an apparently independent confirmation.
 
 Delegation of operational authority **MUST NOT** transfer historical authorship or program origination.
 
@@ -589,6 +606,10 @@ Delegated authority **MAY** be revoked or allowed to expire.
 A revocation or expiration record **MUST** identify the affected delegation, effective date, responsible authority, reason, successor authority if applicable, and pending actions affected by the change.
 
 An expired or revoked authority **MUST NOT** continue to approve new actions.
+
+Revocation, expiration, reassignment, succession, or replacement of a delegated role **MUST NOT** validate an action that was non-independent, unauthorized, or self-approved when performed.
+
+A successor delegation affecting approval or exception authority **MUST** satisfy the independence restrictions in Sections 12.11 and 13.3.
 ---
 
 ## 14. Contributions
@@ -1261,11 +1282,24 @@ A security-sensitive change **MUST** include a security impact statement, confli
 
 ### 31.5 Foundation-stage Exception Authority
 
-A foundation-stage exception **MUST NOT** be created, approved, and relied upon solely by the same person.
+A foundation-stage exception **MUST NOT** be created, approved, interpreted, activated, and relied upon solely by the same person or by persons materially controlled by the same interest.
 
-Before Candidate Publication, an exception affecting final approval or authority separation **MUST** receive approval by a distinct temporary Approval Authority, independent or second-party confirmation, or approval through a documented non-circular exception mechanism.
+A non-circular exception mechanism **MUST** exist before the exception is proposed and **MUST** identify:
 
-Where no such mechanism exists, the exception **MUST NOT** be used to grant final approval.
+- the authority that created the mechanism;
+- the persons eligible to review and confirm an exception;
+- applicable independence and conflict-of-interest conditions;
+- the scope and maximum duration of the exception;
+- revocation and reconsideration procedures;
+- the canonical decision record.
+
+The person whose authority would be expanded, validated, delegated, or exempted **MUST NOT** create or approve the mechanism used to authorize that result.
+
+Before Candidate Publication, an exception affecting final approval or authority separation **MUST** receive documented confirmation from at least one independent or second-party Reviewer who is not the Program Originator, sole Author, proposed delegate, or a person materially controlled by any of them.
+
+An exception **MUST NOT** authorize self-approval, approval through another role title, approval through an affiliate under material control, or retroactive validation of an otherwise unauthorized action.
+
+Where these conditions are not satisfied, the exception **MUST NOT** be used to grant final approval or to satisfy any requirement for independent review, approval, registry confirmation, or Publisher authorization.
 
 ### 31.6 Lifecycle Classification Alignment
 
