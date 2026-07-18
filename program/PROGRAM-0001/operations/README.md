@@ -6,7 +6,7 @@ This directory contains subordinate operational specifications, policies, templa
 
 The current Charter reference version is:
 
-`PROGRAM-0001 v1.0 Review`
+`PROGRAM-0001 v1.0 Candidate`
 
 ---
 
@@ -129,17 +129,21 @@ The review determined:
 
 ## 4. Current Registration State
 
-The two subordinate Review documents have been created and published in the repository.
+The subordinate Review documents completed their registration and Publisher acknowledgment sequence through:
 
-They have not yet completed their subordinate registration and Publisher acknowledgment sequence.
+- `PROGRAM-0001-OPERATIONS-REGISTRY-001`;
+- `PROGRAM-0001-OPERATIONS-PUBLISHER-ACK-001`.
 
-Until that sequence is complete, they must not be described as:
+They remain subordinate Review documents.
+
+They must not be described as:
 
 - Approved Publications;
 - Candidate Publications;
-- final governing policies;
 - independently validated documents;
 - externally certified standards.
+
+Their requirements support the current Charter Candidate Publication but do not independently change their own lifecycle status.
 
 ---
 
@@ -152,8 +156,10 @@ The current sequence is:
 3. `PROGRAM-0001-REVIEW-009`
 4. `PROGRAM-0001-OPSPEC-001 v1.0 Review`
 5. `PROGRAM-0001-CHECKSUM-POLICY-001 v1.0 Review`
-6. subordinate registration records — pending
-7. Publisher acknowledgment — pending
+6. `PROGRAM-0001-OPERATIONS-REGISTRY-001`
+7. `PROGRAM-0001-OPERATIONS-PUBLISHER-ACK-001`
+8. application of the integrity requirements to `PROGRAM-0001 v1.0 Candidate`
+9. creation of `PROGRAM-0001-INTEGRITY-001`
 
 The Draft artifacts remain historical predecessor versions.
 
@@ -210,32 +216,43 @@ Candidate Publication artifacts require formal integrity records and reproducibl
 
 ---
 
-## 8. Independent Review Limitation
+## 8. Independent Review Status
 
-The current review was internal and performed under disclosed foundation-stage role overlap.
+The Charter-level independent review requirement was satisfied through:
 
-It does not satisfy:
+`PROGRAM-0001-INDEPENDENT-REVIEW-001`
 
-`NEW-005 — Independent Review Availability`
+The resulting findings were resolved through:
 
-A real independent or second-party reviewer remains required before Candidate Publication readiness may be established.
+`PROGRAM-0001-INDEPENDENT-DISPOSITION-001`
+
+`NEW-005 — Independent Review Availability` is resolved.
+
+The subordinate operational documents remain internal Review documents and must not be represented as independently certified.
 
 ---
 
-## 9. Candidate Publication Restrictions
+## 9. Candidate Publication Application
 
-Candidate Publication remains prohibited pending:
+The checksum policy and operational record specification were applied to the Charter Candidate Publication.
 
-- final disposition of ED-002;
-- final disposition of ED-003;
-- real independent or second-party review;
-- Candidate Publication readiness assessment;
-- Candidate artifact integrity evidence;
-- applicable approval records;
-- registry readiness;
-- Publisher readiness.
+The resulting record set includes:
 
-The subordinate operational documents do not independently authorize Charter lifecycle progression.
+- `PROGRAM-0001 v1.0 Candidate`;
+- `PROGRAM-0001-INTEGRITY-001`;
+- `PROGRAM-0001-CANDIDATE-DECISION-001`;
+- `PROGRAM-0001-REGISTRY-005`;
+- `PROGRAM-0001-PUBLISHER-ACK-005`.
+
+The Candidate artifact uses:
+
+- SHA-256;
+- a full 64-character lowercase hexadecimal digest;
+- a recorded file size;
+- a canonical path;
+- reproducible verification instructions.
+
+Candidate Publication remains distinct from Approved Publication.
 
 ---
 

@@ -30,6 +30,7 @@ The current Publisher acknowledgment sequence is:
 2. `PROGRAM-0001-PUBLISHER-ACK-002`
 3. `PROGRAM-0001-PUBLISHER-ACK-003`
 4. `PROGRAM-0001-PUBLISHER-ACK-004`
+5. `PROGRAM-0001-PUBLISHER-ACK-005`
 
 The first two acknowledgments remain at their historical locations in:
 
@@ -111,50 +112,75 @@ This acknowledgment recognizes `PROGRAM-0001 v1.0 Review` as the current active 
 
 ---
 
+
+### 3.5 PROGRAM-0001-PUBLISHER-ACK-005
+
+**Acknowledged Version:** PROGRAM-0001 v1.0 Candidate
+
+**Transition:** PROGRAM-0001 v1.0 Review to PROGRAM-0001 v1.0 Candidate
+
+**Lifecycle Decision:** PROGRAM-0001-CANDIDATE-DECISION-001
+
+**Registry Basis:** PROGRAM-0001-REGISTRY-005
+
+**Integrity Record:** PROGRAM-0001-INTEGRITY-001
+
+**Acknowledgment Status:** Active
+
+**File:**
+
+`PROGRAM-0001-publisher-acknowledgment-005.md`
+
+This acknowledgment recognizes `PROGRAM-0001 v1.0 Candidate` as the current active Candidate Publication version.
+
+---
+
 ## 4. Current Publisher State
 
 The current Publisher-recognized version is:
 
-`PROGRAM-0001 v1.0 Review`
+`PROGRAM-0001 v1.0 Candidate`
 
 The current active Publisher acknowledgment is:
 
-`PROGRAM-0001-PUBLISHER-ACK-004`
+`PROGRAM-0001-PUBLISHER-ACK-005`
 
 The recognized registry record is:
 
-`PROGRAM-0001-REGISTRY-004`
+`PROGRAM-0001-REGISTRY-005`
+
+The recognized integrity record is:
+
+`PROGRAM-0001-INTEGRITY-001`
 
 The current lifecycle status is:
 
-> **Review**
+> **Candidate Publication**
+
+The Publisher has recognized the Candidate transition and closure of `READINESS-003`.
 
 The Publisher has not authorized:
 
-- Candidate Publication;
 - Approved Publication;
-- Reference Publication;
+- AISET Reference Publication;
 - final governing Charter status.
 
 ---
 
 ## 5. Current Restrictions
 
-Before Candidate Publication readiness may be established, applicable requirements include:
+Candidate Publication is not final approval.
 
-- operational record specifications or templates;
-- checksum algorithm policy;
-- final disposition of `ED-002`;
-- final disposition of `ED-003`;
-- real independent or second-party review;
-- Candidate Publication readiness evidence;
-- artifact integrity evidence;
-- conflict and role disclosures;
-- registry readiness;
-- Publisher readiness;
-- applicable approval records.
+Any progression to Approved Publication requires:
 
-A later lifecycle transition requires separate review, integrity, decision, registry, and Publisher records.
+- a separated Approval Authority distinct from the Program Originator;
+- an applicable final approval decision;
+- final integrity verification;
+- an Approved Publication registry record;
+- an Approved Publication Publisher acknowledgment;
+- preservation of the Candidate-versus-Approved distinction.
+
+The current internal Publisher acknowledgment must not be represented as independent external validation or accredited approval.
 
 ---
 

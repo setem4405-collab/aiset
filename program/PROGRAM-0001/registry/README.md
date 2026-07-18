@@ -106,25 +106,56 @@ This record establishes `PROGRAM-0001 v1.0 Review` as the current registered Rev
 
 ---
 
+
+### 2.5 PROGRAM-0001-REGISTRY-005
+
+**Registered Object:** PROGRAM-0001 — AISET Program Charter
+
+**Registered Version:** PROGRAM-0001 v1.0 Candidate
+
+**Lifecycle Status:** Candidate Publication
+
+**Record Status:** Active
+
+**Previous Registry Record:** PROGRAM-0001-REGISTRY-004
+
+**Registration Basis:** PROGRAM-0001-CANDIDATE-DECISION-001
+
+**Integrity Record:** PROGRAM-0001-INTEGRITY-001
+
+**File:**
+
+`PROGRAM-0001-registry-record-005.md`
+
+This record establishes `PROGRAM-0001 v1.0 Candidate` as the current registered Candidate Publication version.
+
+---
+
 ## 3. Current Registered State
 
 The current registered document is:
 
-`program/PROGRAM-0001/PROGRAM-0001-v1.0-review.md`
+`program/PROGRAM-0001/PROGRAM-0001-v1.0-candidate.md`
 
 The current active registry record is:
 
-`PROGRAM-0001-REGISTRY-004`
+`PROGRAM-0001-REGISTRY-005`
 
 The registered lifecycle status is:
 
-> **Review**
+> **Candidate Publication**
 
-The document has not yet reached:
+The registered Candidate artifact is bound to:
 
-- Candidate Publication;
+- `PROGRAM-0001-INTEGRITY-001`;
+- SHA-256 `a17f8b099d215db99ef3baebdd6e8838bf7cdeea434e888e26789b477e05ba1c`;
+- `PROGRAM-0001-CANDIDATE-DECISION-001`;
+- `PROGRAM-0001-PUBLISHER-ACK-005`.
+
+The document has not reached:
+
 - Approved Publication;
-- governing Charter status;
+- final governing Charter status;
 - AISET Reference Publication status.
 
 ---
@@ -137,8 +168,9 @@ The current registry sequence is:
 2. `PROGRAM-0001-REGISTRY-002`
 3. `PROGRAM-0001-REGISTRY-003`
 4. `PROGRAM-0001-REGISTRY-004`
+5. `PROGRAM-0001-REGISTRY-005`
 
-`PROGRAM-0001-REGISTRY-004` supersedes `PROGRAM-0001-REGISTRY-003` as the active registry record.
+`PROGRAM-0001-REGISTRY-005` supersedes `PROGRAM-0001-REGISTRY-004` as the active registry record.
 
 Earlier registry records remain valid as historical records and must remain discoverable.
 
@@ -148,19 +180,35 @@ Supersession does not erase or retroactively modify an earlier registered state.
 
 ## 5. Supporting Lifecycle Records
 
-The registration of `PROGRAM-0001 v1.0 Review` is supported by:
+The registration of `PROGRAM-0001 v1.0 Candidate` is supported by:
 
-**Security, Privacy, Governance, and Editorial Re-review:**
+**Candidate Lifecycle Decision:**
 
-`program/PROGRAM-0001/reviews/PROGRAM-0001-v0.9-security-privacy-governance-editorial-rereview-008.md`
+`program/PROGRAM-0001/reviews/PROGRAM-0001-candidate-lifecycle-decision-001.md`
+
+**Candidate Readiness Review:**
+
+`program/PROGRAM-0001/reviews/PROGRAM-0001-candidate-publication-readiness-review-001.md`
+
+**Independent Review:**
+
+`program/PROGRAM-0001/reviews/PROGRAM-0001-independent-review-record-001.md`
+
+**Independent Findings Disposition:**
+
+`program/PROGRAM-0001/reviews/PROGRAM-0001-independent-review-findings-disposition-001.md`
+
+**Integrity Record:**
+
+`program/PROGRAM-0001/integrity/PROGRAM-0001-candidate-integrity-record-001.md`
 
 **Publisher Acknowledgment:**
 
-`program/PROGRAM-0001/publisher/PROGRAM-0001-publisher-acknowledgment-004.md`
+`program/PROGRAM-0001/publisher/PROGRAM-0001-publisher-acknowledgment-005.md`
 
 **Previous Registry Record:**
 
-`program/PROGRAM-0001/registry/PROGRAM-0001-registry-record-003.md`
+`program/PROGRAM-0001/registry/PROGRAM-0001-registry-record-004.md`
 
 ---
 

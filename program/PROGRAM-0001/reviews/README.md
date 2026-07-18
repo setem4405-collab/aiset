@@ -51,6 +51,12 @@ The current review sequence is:
 6. `PROGRAM-0001-REVIEW-006`
 7. `PROGRAM-0001-REVIEW-007`
 8. `PROGRAM-0001-REVIEW-008`
+9. `PROGRAM-0001-REVIEW-009`
+10. `PROGRAM-0001-REVIEW-010`
+11. `PROGRAM-0001-INDEPENDENT-REVIEW-001`
+12. `PROGRAM-0001-INDEPENDENT-DISPOSITION-001`
+13. `PROGRAM-0001-CANDIDATE-READINESS-REVIEW-001`
+14. `PROGRAM-0001-CANDIDATE-DECISION-001`
 
 Publisher acknowledgments are indexed separately in:
 
@@ -180,6 +186,83 @@ Publisher acknowledgments are indexed separately in:
 
 ---
 
+
+### 3.9 PROGRAM-0001-REVIEW-009
+
+**Title:** Operational Records and Checksum Policy Review
+
+**Outcome:** NEW-003 and NEW-004 resolved; subordinate Review progression permitted
+
+**File:**
+
+`PROGRAM-0001-operational-records-checksum-policy-review-009.md`
+
+---
+
+### 3.10 PROGRAM-0001-REVIEW-010
+
+**Title:** Editorial Disposition Review
+
+**Reviewed Version:** PROGRAM-0001 v1.0 Review
+
+**Outcome:** ED-002 and ED-003 resolved
+
+**File:**
+
+`PROGRAM-0001-editorial-disposition-review-010.md`
+
+---
+
+### 3.11 PROGRAM-0001-INDEPENDENT-REVIEW-001
+
+**Title:** Independent External Review
+
+**Reviewed Version:** PROGRAM-0001 v1.0 Review
+
+**Outcome:** Recommended with non-blocking observations
+
+**File:**
+
+`PROGRAM-0001-independent-review-record-001.md`
+
+---
+
+### 3.12 PROGRAM-0001-INDEPENDENT-DISPOSITION-001
+
+**Title:** Independent Review Findings Disposition
+
+**Outcome:** INDEPENDENT-001, INDEPENDENT-002, and NEW-005 resolved
+
+**File:**
+
+`PROGRAM-0001-independent-review-findings-disposition-001.md`
+
+---
+
+### 3.13 PROGRAM-0001-CANDIDATE-READINESS-REVIEW-001
+
+**Title:** Candidate Publication Readiness Review
+
+**Outcome:** Candidate artifact preparation authorized
+
+**File:**
+
+`PROGRAM-0001-candidate-publication-readiness-review-001.md`
+
+---
+
+### 3.14 PROGRAM-0001-CANDIDATE-DECISION-001
+
+**Title:** Candidate Publication Lifecycle Decision
+
+**Outcome:** Candidate registration and subsequent Publisher acknowledgment authorized
+
+**File:**
+
+`PROGRAM-0001-candidate-lifecycle-decision-001.md`
+
+---
+
 ## 4. Legacy Publisher Acknowledgments
 
 The following Publisher acknowledgment records remain at their historical locations in this directory.
@@ -222,49 +305,58 @@ New Publisher acknowledgments are maintained in:
 
 ## 5. Current Review Status
 
-The current formal Review version is:
+The current lifecycle artifact is:
 
-`PROGRAM-0001 v1.0 Review`
+`PROGRAM-0001 v1.0 Candidate`
 
-The current supporting review is:
+The Candidate transition is supported by:
 
-`PROGRAM-0001-REVIEW-008`
+- `PROGRAM-0001-REVIEW-009`;
+- `PROGRAM-0001-REVIEW-010`;
+- `PROGRAM-0001-INDEPENDENT-REVIEW-001`;
+- `PROGRAM-0001-INDEPENDENT-DISPOSITION-001`;
+- `PROGRAM-0001-CANDIDATE-READINESS-REVIEW-001`;
+- `PROGRAM-0001-CANDIDATE-DECISION-001`;
+- `PROGRAM-0001-INTEGRITY-001`;
+- `PROGRAM-0001-REGISTRY-005`;
+- `PROGRAM-0001-PUBLISHER-ACK-005`.
 
-That review determined that:
+The completed process established that:
 
-- both previous blocking findings were resolved;
-- no new blocking finding was identified;
-- return to formal Review is permitted;
-- direct progression to Candidate Publication is not yet permitted.
+- all known blocking findings are resolved;
+- `ED-002` and `ED-003` are resolved;
+- `NEW-003`, `NEW-004`, and `NEW-005` are resolved;
+- `INDEPENDENT-001` and `INDEPENDENT-002` are resolved;
+- Candidate integrity is verified;
+- Candidate registration is complete;
+- Candidate Publisher acknowledgment is complete;
+- `READINESS-001`, `READINESS-002`, and `READINESS-003` are resolved.
 
-The following non-blocking matters remain:
+The document has reached:
 
-- `ED-002 — Normative and Informative Boundaries`;
-- `ED-003 — Cross-Reference Precision`;
-- `NEW-003 — Operational Record Specifications`;
-- `NEW-004 — Checksum Algorithm Policy`;
-- `NEW-005 — Independent Review Availability`.
+- Candidate Publication.
 
-The document has not yet reached:
+The document has not reached:
 
-- Candidate Publication;
 - Approved Publication;
-- governing Charter status;
+- final governing Charter status;
 - AISET Reference Publication status.
 
 ---
 
 ## 6. Next Review Stage
 
-The next intended review-stage work is:
+The next review-stage work concerns the future Approved Publication pathway.
 
-- preparation of operational record templates or a consolidated operational record specification;
-- definition of checksum algorithm policy;
-- real independent or second-party review;
-- final disposition of remaining non-blocking findings;
-- Candidate Publication readiness assessment.
+That work must define and satisfy:
 
-The current internal review record does not satisfy the independent or second-party review requirement by itself.
+- separated Approval Authority requirements;
+- final approval criteria;
+- any additional independent review required for material changes;
+- final integrity verification;
+- Approved Publication decision, registry, and Publisher records.
+
+Candidate Publication must not be represented as final approval.
 
 ---
 
