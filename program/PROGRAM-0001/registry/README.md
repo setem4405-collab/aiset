@@ -257,7 +257,7 @@ The registration of `PROGRAM-0001 v1.0 Candidate Publication` is supported by:
 
 **Package Reconciliation Decision:**
 
-`program/PROGRAM-0001/decisions/PROGRAM-0001-candidate-publication-package-reconciliation-decision-002.md`
+`program/PROGRAM-0001/decisions/PROGRAM-0001-candidate-package-reconciliation-decision-002.md`
 
 **Identifier Correction Decision:**
 

@@ -330,7 +330,7 @@ This review must not be represented as independent external review or external c
 
 **Package Reconciliation Decision:** PROGRAM-0001-DECISION-002
 
-`../decisions/PROGRAM-0001-candidate-publication-package-reconciliation-decision-002.md`
+`../decisions/PROGRAM-0001-candidate-package-reconciliation-decision-002.md`
 
 **Identifier Correction Decision:** PROGRAM-0001-DECISION-003
 
