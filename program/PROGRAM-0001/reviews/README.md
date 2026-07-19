@@ -41,7 +41,7 @@ Each review record is expected to identify, as applicable:
 
 ## 2. Current Review Sequence
 
-The current review sequence is:
+The review and lifecycle record sequence is:
 
 1. `PROGRAM-0001-REVIEW-001`
 2. `PROGRAM-0001-REVIEW-002`
@@ -57,6 +57,17 @@ The current review sequence is:
 12. `PROGRAM-0001-INDEPENDENT-DISPOSITION-001`
 13. `PROGRAM-0001-CANDIDATE-READINESS-REVIEW-001`
 14. `PROGRAM-0001-CANDIDATE-DECISION-001`
+15. `PROGRAM-0001-REVIEW-011`
+16. `PROGRAM-0001-REVIEW-012`
+17. `PROGRAM-0001-DECISION-001`
+18. `PROGRAM-0001-DECISION-002`
+19. `PROGRAM-0001-DECISION-003`
+
+`PROGRAM-0001-REVIEW-010` remains the canonical Editorial Disposition Review.
+
+`PROGRAM-0001-REVIEW-012` is the canonical second-party review.
+
+The duplicate later use of `PROGRAM-0001-REVIEW-010` is preserved as a superseded historical record.
 
 Publisher acknowledgments are indexed separately in:
 
@@ -205,11 +216,13 @@ Publisher acknowledgments are indexed separately in:
 
 **Reviewed Version:** PROGRAM-0001 v1.0 Review
 
+**Record Status:** Canonical
+
 **Outcome:** ED-002 and ED-003 resolved
 
-**File:**
+**File:** `PROGRAM-0001-editorial-disposition-review-010.md`
 
-`PROGRAM-0001-editorial-disposition-review-010.md`
+This identifier remains assigned to the Editorial Disposition Review.
 
 ---
 
@@ -219,11 +232,11 @@ Publisher acknowledgments are indexed separately in:
 
 **Reviewed Version:** PROGRAM-0001 v1.0 Review
 
+**Record Status:** Historical
+
 **Outcome:** Recommended with non-blocking observations
 
-**File:**
-
-`PROGRAM-0001-independent-review-record-001.md`
+**File:** `PROGRAM-0001-independent-review-record-001.md`
 
 ---
 
@@ -231,11 +244,11 @@ Publisher acknowledgments are indexed separately in:
 
 **Title:** Independent Review Findings Disposition
 
+**Record Status:** Historical
+
 **Outcome:** INDEPENDENT-001, INDEPENDENT-002, and NEW-005 resolved
 
-**File:**
-
-`PROGRAM-0001-independent-review-findings-disposition-001.md`
+**File:** `PROGRAM-0001-independent-review-findings-disposition-001.md`
 
 ---
 
@@ -243,11 +256,11 @@ Publisher acknowledgments are indexed separately in:
 
 **Title:** Candidate Publication Readiness Review
 
-**Outcome:** Candidate artifact preparation authorized
+**Record Status:** Historical
 
-**File:**
+**Outcome:** Historical Candidate artifact preparation authorized
 
-`PROGRAM-0001-candidate-publication-readiness-review-001.md`
+**File:** `PROGRAM-0001-candidate-publication-readiness-review-001.md`
 
 ---
 
@@ -255,11 +268,73 @@ Publisher acknowledgments are indexed separately in:
 
 **Title:** Candidate Publication Lifecycle Decision
 
-**Outcome:** Candidate registration and subsequent Publisher acknowledgment authorized
+**Record Status:** Historical
 
-**File:**
+**Outcome:** Historical Candidate registration and Publisher acknowledgment authorized
 
-`PROGRAM-0001-candidate-lifecycle-decision-001.md`
+**File:** `PROGRAM-0001-candidate-lifecycle-decision-001.md`
+
+---
+
+### 3.15 Superseded Duplicate PROGRAM-0001-REVIEW-010
+
+**Title:** Independent Second-party Review
+
+**Record Status:** Superseded
+
+**Reason:** Duplicate later use of the canonical Editorial Disposition Review identifier
+
+**File:** `PROGRAM-0001-independent-second-party-review-010.md`
+
+The review content remains preserved, but this identifier assignment is not canonical.
+
+---
+
+### 3.16 PROGRAM-0001-REVIEW-011
+
+**Title:** Candidate Publication Readiness Review
+
+**Reviewed Version:** PROGRAM-0001 v1.0 Candidate Publication
+
+**Record Status:** Active
+
+**Outcome:** Candidate Publication preparation authorized with no blocking or major findings
+
+**File:** `PROGRAM-0001-candidate-publication-readiness-review-011.md`
+
+---
+
+### 3.17 PROGRAM-0001-REVIEW-012
+
+**Title:** Independent Second-party Review
+
+**Reviewed Version:** PROGRAM-0001 v1.0 Candidate Publication
+
+**Record Status:** Active
+
+**Classification:** Second-party Review
+
+**Reviewer:** Ksenia Kayadzhan
+
+**File:** `PROGRAM-0001-independent-second-party-review-012.md`
+
+This review must not be represented as independent external review or external certification.
+
+---
+
+### 3.18 PROGRAM-0001 Lifecycle Decisions
+
+**Transition Decision:** PROGRAM-0001-DECISION-001
+
+`../decisions/PROGRAM-0001-candidate-publication-transition-decision-001.md`
+
+**Package Reconciliation Decision:** PROGRAM-0001-DECISION-002
+
+`../decisions/PROGRAM-0001-candidate-publication-package-reconciliation-decision-002.md`
+
+**Identifier Correction Decision:** PROGRAM-0001-DECISION-003
+
+`../decisions/PROGRAM-0001-review-identifier-reconciliation-decision-003.md`
 
 ---
 
@@ -307,30 +382,32 @@ New Publisher acknowledgments are maintained in:
 
 The current lifecycle artifact is:
 
-`PROGRAM-0001 v1.0 Candidate`
+`PROGRAM-0001 v1.0 Candidate Publication`
 
-The Candidate transition is supported by:
+The current Candidate Publication lifecycle package is supported by:
 
-- `PROGRAM-0001-REVIEW-009`;
-- `PROGRAM-0001-REVIEW-010`;
-- `PROGRAM-0001-INDEPENDENT-REVIEW-001`;
-- `PROGRAM-0001-INDEPENDENT-DISPOSITION-001`;
-- `PROGRAM-0001-CANDIDATE-READINESS-REVIEW-001`;
-- `PROGRAM-0001-CANDIDATE-DECISION-001`;
-- `PROGRAM-0001-INTEGRITY-001`;
-- `PROGRAM-0001-REGISTRY-005`;
-- `PROGRAM-0001-PUBLISHER-ACK-005`.
+- `PROGRAM-0001-REVIEW-010` — canonical Editorial Disposition Review;
+- `PROGRAM-0001-REVIEW-011` — Candidate Publication Readiness Review;
+- `PROGRAM-0001-REVIEW-012` — canonical Second-party Review;
+- `PROGRAM-0001-DECISION-001` — Candidate Publication transition;
+- `PROGRAM-0001-DECISION-002` — package reconciliation;
+- `PROGRAM-0001-DECISION-003` — review identifier correction;
+- `PROGRAM-0001-INTEGRITY-003`;
+- `PROGRAM-0001-REGISTRY-007`;
+- `PROGRAM-0001-PUBLISHER-ACK-007`.
 
 The completed process established that:
 
-- all known blocking findings are resolved;
+- no blocking or major findings remain;
 - `ED-002` and `ED-003` are resolved;
 - `NEW-003`, `NEW-004`, and `NEW-005` are resolved;
-- `INDEPENDENT-001` and `INDEPENDENT-002` are resolved;
-- Candidate integrity is verified;
-- Candidate registration is complete;
-- Candidate Publisher acknowledgment is complete;
-- `READINESS-001`, `READINESS-002`, and `READINESS-003` are resolved.
+- the second-party review classification is explicitly preserved;
+- the duplicate later use of `PROGRAM-0001-REVIEW-010` has been corrected through `PROGRAM-0001-REVIEW-012`;
+- current Candidate integrity is verified;
+- current Candidate registration is complete;
+- current Candidate Publisher acknowledgment is complete.
+
+Historical review, Candidate, integrity, registry, and Publisher records remain discoverable.
 
 The document has reached:
 
