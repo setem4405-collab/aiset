@@ -4,7 +4,13 @@
 
 **Title:** Registry Record for PROGRAM-0001 v1.0 Candidate Publication
 
-**Status:** Active
+**Status:** Superseded
+
+**Supersession Reason:** Administrative Identifier Collision
+
+**Superseded By:** PROGRAM-0001-REGISTRY-006
+
+**Reconciliation Decision:** PROGRAM-0001-DECISION-002
 
 **Registration Date:** 19 July 2026
 
@@ -41,6 +47,24 @@
 **Classification:** Public
 
 **License:** Creative Commons Attribution 4.0 International
+
+---
+
+## Supersession Notice
+
+This file is preserved as historical evidence but is not the canonical record for the identifier `PROGRAM-0001-REGISTRY-005`.
+
+Its operational effect is superseded due to an administrative identifier collision.
+
+The current canonical registry record for `PROGRAM-0001 v1.0 Candidate Publication` is:
+
+`PROGRAM-0001-REGISTRY-006`
+
+The supersession basis is:
+
+`PROGRAM-0001-DECISION-002`
+
+No registry history contained in this file is deleted.
 
 ---
 
