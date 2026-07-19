@@ -22,7 +22,13 @@
 
 **Readiness Basis:** PROGRAM-0001-REVIEW-011
 
-**Second-party Review Basis:** PROGRAM-0001-REVIEW-010
+**Second-party Review Basis:** PROGRAM-0001-REVIEW-012
+
+**Identifier Correction Basis:** PROGRAM-0001-DECISION-003
+
+**Previous Second-party Review Reference:** PROGRAM-0001-REVIEW-010
+
+**Correction Scope:** Administrative review identifier correction only
 
 **Operational Review Basis:** PROGRAM-0001-REVIEW-009
 
@@ -44,7 +50,7 @@ is authorized by:
 
 The readiness decision is supported by:
 
-- `PROGRAM-0001-REVIEW-010 — Second-party Review of PROGRAM-0001 v1.0 Review`;
+- `PROGRAM-0001-REVIEW-012 — Second-party Review of PROGRAM-0001 v1.0 Review`;
 - `PROGRAM-0001-REVIEW-009 — Operational Records and Checksum Policy Review`;
 - `PROGRAM-0001-OPSPEC-001 v1.0 Review`;
 - `PROGRAM-0001-CHECKSUM-POLICY-001 v1.0 Review`;
@@ -1351,7 +1357,7 @@ The transition sequence is:
 4. `PROGRAM-0001-REVIEW-008 — Security, Privacy, Governance, and Editorial Re-review`;
 5. `PROGRAM-0001 v1.0 Review`;
 6. `PROGRAM-0001-REVIEW-009 — Operational Records and Checksum Policy Review`;
-7. `PROGRAM-0001-REVIEW-010 — Second-party Review`;
+7. `PROGRAM-0001-REVIEW-012 — Second-party Review`;
 8. `PROGRAM-0001-REVIEW-011 — Candidate Publication Readiness Review and Final Finding Disposition`;
 9. `PROGRAM-0001 v1.0 Candidate Publication`.
 
