@@ -4,7 +4,7 @@
 
 **Title:** Second-party Review of PROGRAM-0001 v1.0 Review
 
-**Status:** Review
+**Status:** Superseded
 
 **Review Date:** 19 July 2026
 
@@ -21,6 +21,14 @@
 **Reviewer Role:** Appeal and Reconsideration Authority
 
 **Review Classification:** Second-party Review
+
+**Supersession Reason:** Administrative Identifier Collision
+
+**Reconciliation Decision:** PROGRAM-0001-DECISION-003
+
+**Successor Review:** PROGRAM-0001-REVIEW-012
+
+**Successor File:** PROGRAM-0001-independent-second-party-review-012.md
 
 **Previous Review:** PROGRAM-0001-REVIEW-009
 
@@ -57,6 +65,29 @@ This review is classified as:
 > **Second-party Review**
 
 It must not be represented as independent external review, external certification, legal review, technical certification, security certification, or privacy certification.
+
+---
+
+## Supersession Notice
+
+This file is preserved as a historical review record.
+
+Its substantive second-party review evidence remains valid, but its use of
+`PROGRAM-0001-REVIEW-010` conflicts with the earlier canonical assignment of
+that identifier to the Normative Boundaries and Cross-reference Precision
+Disposition Review.
+
+Under `PROGRAM-0001-DECISION-003`, this record is superseded by:
+
+`PROGRAM-0001-REVIEW-012`
+
+Canonical successor file:
+
+`program/PROGRAM-0001/reviews/PROGRAM-0001-independent-second-party-review-012.md`
+
+This supersession corrects the persistent identifier only. It does not alter
+the reviewer identity, review date, classification, findings, recommendations,
+outcome, or publication permission.
 
 ---
 
