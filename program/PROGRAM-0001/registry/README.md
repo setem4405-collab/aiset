@@ -92,20 +92,15 @@ Registration alone does not establish final approval unless the applicable recor
 
 **Lifecycle Status:** Review
 
-**Record Status:** Active
+**Record Status:** Superseded
 
 **Previous Registry Record:** PROGRAM-0001-REGISTRY-003
 
 **Registration Basis:** PROGRAM-0001-REVIEW-008
 
-**File:**
-
-`PROGRAM-0001-registry-record-004.md`
-
-This record establishes `PROGRAM-0001 v1.0 Review` as the current registered Review version.
+**File:** `PROGRAM-0001-registry-record-004.md`
 
 ---
-
 
 ### 2.5 PROGRAM-0001-REGISTRY-005
 
@@ -115,7 +110,7 @@ This record establishes `PROGRAM-0001 v1.0 Review` as the current registered Rev
 
 **Lifecycle Status:** Candidate Publication
 
-**Record Status:** Active
+**Record Status:** Historical
 
 **Previous Registry Record:** PROGRAM-0001-REGISTRY-004
 
@@ -123,11 +118,67 @@ This record establishes `PROGRAM-0001 v1.0 Review` as the current registered Rev
 
 **Integrity Record:** PROGRAM-0001-INTEGRITY-001
 
-**File:**
+**File:** `PROGRAM-0001-registry-record-005.md`
 
-`PROGRAM-0001-registry-record-005.md`
+This record remains valid for the historical 18 July 2026 Candidate package.
 
-This record establishes `PROGRAM-0001 v1.0 Candidate` as the current registered Candidate Publication version.
+A later duplicate file also reused `PROGRAM-0001-REGISTRY-005` and is preserved as a superseded historical record:
+
+`PROGRAM-0001-candidate-publication-registry-record-005.md`
+
+---
+
+### 2.6 PROGRAM-0001-REGISTRY-006
+
+**Registered Object:** PROGRAM-0001 — AISET Program Charter
+
+**Registered Version:** PROGRAM-0001 v1.0 Candidate Publication
+
+**Lifecycle Status:** Candidate Publication
+
+**Record Status:** Superseded
+
+**Previous Registry Record:** PROGRAM-0001-REGISTRY-005
+
+**Transition Decision:** PROGRAM-0001-DECISION-001
+
+**Package Reconciliation Decision:** PROGRAM-0001-DECISION-002
+
+**Integrity Record:** PROGRAM-0001-INTEGRITY-002
+
+**File:** `PROGRAM-0001-candidate-publication-registry-record-006.md`
+
+This was the previous canonical registry record. It was superseded after correction of the Candidate artifact bytes.
+
+---
+
+### 2.7 PROGRAM-0001-REGISTRY-007
+
+**Registered Object:** PROGRAM-0001 — AISET Program Charter
+
+**Registered Version:** PROGRAM-0001 v1.0 Candidate Publication
+
+**Lifecycle Status:** Candidate Publication
+
+**Record Status:** Active
+
+**Previous Registry Record:** PROGRAM-0001-REGISTRY-006
+
+**Transition Decision:** PROGRAM-0001-DECISION-001
+
+**Package Reconciliation Decision:** PROGRAM-0001-DECISION-002
+
+**Identifier Correction Decision:** PROGRAM-0001-DECISION-003
+
+**Readiness Review:** PROGRAM-0001-REVIEW-011
+
+**Second-party Review:** PROGRAM-0001-REVIEW-012
+
+**Integrity Record:** PROGRAM-0001-INTEGRITY-003
+
+**File:** `PROGRAM-0001-candidate-publication-registry-record-007.md`
+
+This is the current canonical registry record for the corrected Candidate Publication artifact bytes.
 
 ---
 
@@ -135,22 +186,30 @@ This record establishes `PROGRAM-0001 v1.0 Candidate` as the current registered 
 
 The current registered document is:
 
-`program/PROGRAM-0001/PROGRAM-0001-v1.0-candidate.md`
+`program/PROGRAM-0001/PROGRAM-0001-v1.0-candidate-publication.md`
 
 The current active registry record is:
 
-`PROGRAM-0001-REGISTRY-005`
+`PROGRAM-0001-REGISTRY-007`
 
 The registered lifecycle status is:
 
 > **Candidate Publication**
 
-The registered Candidate artifact is bound to:
+The current Candidate Publication artifact is bound to:
 
-- `PROGRAM-0001-INTEGRITY-001`;
-- SHA-256 `a17f8b099d215db99ef3baebdd6e8838bf7cdeea434e888e26789b477e05ba1c`;
-- `PROGRAM-0001-CANDIDATE-DECISION-001`;
-- `PROGRAM-0001-PUBLISHER-ACK-005`.
+- `PROGRAM-0001-REVIEW-012`;
+- `PROGRAM-0001-REVIEW-011`;
+- `PROGRAM-0001-DECISION-001`;
+- `PROGRAM-0001-DECISION-002`;
+- `PROGRAM-0001-DECISION-003`;
+- `PROGRAM-0001-INTEGRITY-003`;
+- SHA-256 `426ab2347cd2591313065ac0c05474fd4bc81f71eb4b57ebfd97bb8cb1b49b6a`;
+- `PROGRAM-0001-PUBLISHER-ACK-007`.
+
+`PROGRAM-0001-REGISTRY-006` remains preserved as the previous canonical registry record.
+
+`PROGRAM-0001-REGISTRY-005` remains preserved for the historical Candidate package.
 
 The document has not reached:
 
@@ -162,17 +221,19 @@ The document has not reached:
 
 ## 4. Registry Sequence
 
-The current registry sequence is:
+The registry sequence is:
 
 1. `PROGRAM-0001-REGISTRY-001`
 2. `PROGRAM-0001-REGISTRY-002`
 3. `PROGRAM-0001-REGISTRY-003`
 4. `PROGRAM-0001-REGISTRY-004`
 5. `PROGRAM-0001-REGISTRY-005`
+6. `PROGRAM-0001-REGISTRY-006`
+7. `PROGRAM-0001-REGISTRY-007`
 
-`PROGRAM-0001-REGISTRY-005` supersedes `PROGRAM-0001-REGISTRY-004` as the active registry record.
+`PROGRAM-0001-REGISTRY-007` supersedes `PROGRAM-0001-REGISTRY-006` as the active registry record.
 
-Earlier registry records remain valid as historical records and must remain discoverable.
+Earlier registry records remain valid historical or superseded records and must remain discoverable.
 
 Supersession does not erase or retroactively modify an earlier registered state.
 
@@ -180,35 +241,41 @@ Supersession does not erase or retroactively modify an earlier registered state.
 
 ## 5. Supporting Lifecycle Records
 
-The registration of `PROGRAM-0001 v1.0 Candidate` is supported by:
+The registration of `PROGRAM-0001 v1.0 Candidate Publication` is supported by:
 
-**Candidate Lifecycle Decision:**
+**Second-party Review:**
 
-`program/PROGRAM-0001/reviews/PROGRAM-0001-candidate-lifecycle-decision-001.md`
+`program/PROGRAM-0001/reviews/PROGRAM-0001-independent-second-party-review-012.md`
 
-**Candidate Readiness Review:**
+**Readiness Review:**
 
-`program/PROGRAM-0001/reviews/PROGRAM-0001-candidate-publication-readiness-review-001.md`
+`program/PROGRAM-0001/reviews/PROGRAM-0001-candidate-publication-readiness-review-011.md`
 
-**Independent Review:**
+**Transition Decision:**
 
-`program/PROGRAM-0001/reviews/PROGRAM-0001-independent-review-record-001.md`
+`program/PROGRAM-0001/decisions/PROGRAM-0001-candidate-publication-transition-decision-001.md`
 
-**Independent Findings Disposition:**
+**Package Reconciliation Decision:**
 
-`program/PROGRAM-0001/reviews/PROGRAM-0001-independent-review-findings-disposition-001.md`
+`program/PROGRAM-0001/decisions/PROGRAM-0001-candidate-publication-package-reconciliation-decision-002.md`
 
-**Integrity Record:**
+**Identifier Correction Decision:**
 
-`program/PROGRAM-0001/integrity/PROGRAM-0001-candidate-integrity-record-001.md`
+`program/PROGRAM-0001/decisions/PROGRAM-0001-review-identifier-reconciliation-decision-003.md`
 
-**Publisher Acknowledgment:**
+**Current Integrity Record:**
 
-`program/PROGRAM-0001/publisher/PROGRAM-0001-publisher-acknowledgment-005.md`
+`program/PROGRAM-0001/integrity/PROGRAM-0001-candidate-publication-integrity-record-003.md`
+
+**Current Publisher Acknowledgment:**
+
+`program/PROGRAM-0001/publisher/PROGRAM-0001-candidate-publication-publisher-acknowledgment-007.md`
 
 **Previous Registry Record:**
 
-`program/PROGRAM-0001/registry/PROGRAM-0001-registry-record-004.md`
+`program/PROGRAM-0001/registry/PROGRAM-0001-candidate-publication-registry-record-006.md`
+
+Historical Candidate package records remain preserved at their recorded paths.
 
 ---
 
