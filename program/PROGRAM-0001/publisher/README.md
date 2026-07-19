@@ -24,19 +24,25 @@ A Publisher acknowledgment does not itself grant final approval unless the appli
 
 ## 2. Publisher Acknowledgment Sequence
 
-The current Publisher acknowledgment sequence is:
+The Publisher acknowledgment sequence is:
 
 1. `PROGRAM-0001-PUBLISHER-ACK-001`
 2. `PROGRAM-0001-PUBLISHER-ACK-002`
 3. `PROGRAM-0001-PUBLISHER-ACK-003`
 4. `PROGRAM-0001-PUBLISHER-ACK-004`
 5. `PROGRAM-0001-PUBLISHER-ACK-005`
+6. `PROGRAM-0001-PUBLISHER-ACK-006`
+7. `PROGRAM-0001-PUBLISHER-ACK-007`
+
+`PROGRAM-0001-PUBLISHER-ACK-007` is the current canonical Publisher acknowledgment.
 
 The first two acknowledgments remain at their historical locations in:
 
 `program/PROGRAM-0001/reviews/`
 
-New Publisher acknowledgment records are maintained in this directory.
+Later Publisher acknowledgment records are maintained in this directory.
+
+Earlier records remain permanently discoverable as historical or superseded lifecycle evidence.
 
 ---
 
@@ -78,17 +84,11 @@ New Publisher acknowledgment records are maintained in this directory.
 
 **Acknowledged Version:** PROGRAM-0001 v0.8 Review
 
-**Transition:** PROGRAM-0001 v0.7 Draft to PROGRAM-0001 v0.8 Review
-
-**Review Basis:** PROGRAM-0001-REVIEW-006
+**Acknowledgment Status:** Superseded
 
 **Registry Basis:** PROGRAM-0001-REGISTRY-003
 
-**Acknowledgment Status:** Superseded
-
-**File:**
-
-`PROGRAM-0001-publisher-acknowledgment-003.md`
+**File:** `PROGRAM-0001-publisher-acknowledgment-003.md`
 
 ---
 
@@ -96,28 +96,21 @@ New Publisher acknowledgment records are maintained in this directory.
 
 **Acknowledged Version:** PROGRAM-0001 v1.0 Review
 
-**Transition:** PROGRAM-0001 v0.9 Draft to PROGRAM-0001 v1.0 Review
-
-**Review Basis:** PROGRAM-0001-REVIEW-008
+**Acknowledgment Status:** Superseded
 
 **Registry Basis:** PROGRAM-0001-REGISTRY-004
 
-**Acknowledgment Status:** Active
-
-**File:**
-
-`PROGRAM-0001-publisher-acknowledgment-004.md`
-
-This acknowledgment recognizes `PROGRAM-0001 v1.0 Review` as the current active Review version.
+**File:** `PROGRAM-0001-publisher-acknowledgment-004.md`
 
 ---
-
 
 ### 3.5 PROGRAM-0001-PUBLISHER-ACK-005
 
 **Acknowledged Version:** PROGRAM-0001 v1.0 Candidate
 
-**Transition:** PROGRAM-0001 v1.0 Review to PROGRAM-0001 v1.0 Candidate
+**Lifecycle Status:** Candidate Publication
+
+**Acknowledgment Status:** Historical
 
 **Lifecycle Decision:** PROGRAM-0001-CANDIDATE-DECISION-001
 
@@ -125,13 +118,57 @@ This acknowledgment recognizes `PROGRAM-0001 v1.0 Review` as the current active 
 
 **Integrity Record:** PROGRAM-0001-INTEGRITY-001
 
+**File:** `PROGRAM-0001-publisher-acknowledgment-005.md`
+
+This acknowledgment remains valid for the historical 18 July 2026 Candidate package.
+
+A later duplicate file also reused `PROGRAM-0001-PUBLISHER-ACK-005` and remains preserved as a superseded historical record:
+
+`PROGRAM-0001-candidate-publication-publisher-acknowledgment-005.md`
+
+---
+
+### 3.6 PROGRAM-0001-PUBLISHER-ACK-006
+
+**Acknowledged Version:** PROGRAM-0001 v1.0 Candidate Publication
+
+**Lifecycle Status:** Candidate Publication
+
+**Acknowledgment Status:** Superseded
+
+**Registry Basis:** PROGRAM-0001-REGISTRY-006
+
+**Integrity Record:** PROGRAM-0001-INTEGRITY-002
+
+**Package Reconciliation Decision:** PROGRAM-0001-DECISION-002
+
+**File:** `PROGRAM-0001-candidate-publication-publisher-acknowledgment-006.md`
+
+This was the previous canonical Publisher acknowledgment.
+
+---
+
+### 3.7 PROGRAM-0001-PUBLISHER-ACK-007
+
+**Acknowledged Version:** PROGRAM-0001 v1.0 Candidate Publication
+
+**Lifecycle Status:** Candidate Publication
+
 **Acknowledgment Status:** Active
 
-**File:**
+**Registry Basis:** PROGRAM-0001-REGISTRY-007
 
-`PROGRAM-0001-publisher-acknowledgment-005.md`
+**Integrity Record:** PROGRAM-0001-INTEGRITY-003
 
-This acknowledgment recognizes `PROGRAM-0001 v1.0 Candidate` as the current active Candidate Publication version.
+**Second-party Review:** PROGRAM-0001-REVIEW-012
+
+**Package Reconciliation Decision:** PROGRAM-0001-DECISION-002
+
+**Identifier Correction Decision:** PROGRAM-0001-DECISION-003
+
+**File:** `PROGRAM-0001-candidate-publication-publisher-acknowledgment-007.md`
+
+This is the current canonical Publisher acknowledgment for the corrected Candidate Publication artifact bytes.
 
 ---
 
@@ -139,25 +176,37 @@ This acknowledgment recognizes `PROGRAM-0001 v1.0 Candidate` as the current acti
 
 The current Publisher-recognized version is:
 
-`PROGRAM-0001 v1.0 Candidate`
+`PROGRAM-0001 v1.0 Candidate Publication`
 
 The current active Publisher acknowledgment is:
 
-`PROGRAM-0001-PUBLISHER-ACK-005`
+`PROGRAM-0001-PUBLISHER-ACK-007`
 
 The recognized registry record is:
 
-`PROGRAM-0001-REGISTRY-005`
+`PROGRAM-0001-REGISTRY-007`
 
 The recognized integrity record is:
 
-`PROGRAM-0001-INTEGRITY-001`
+`PROGRAM-0001-INTEGRITY-003`
+
+The current second-party review is:
+
+`PROGRAM-0001-REVIEW-012`
+
+The applicable identifier correction decision is:
+
+`PROGRAM-0001-DECISION-003`
 
 The current lifecycle status is:
 
 > **Candidate Publication**
 
-The Publisher has recognized the Candidate transition and closure of `READINESS-003`.
+`PROGRAM-0001-PUBLISHER-ACK-006` remains preserved as the previous canonical Publisher acknowledgment.
+
+`PROGRAM-0001-PUBLISHER-ACK-005` remains preserved for the historical Candidate package.
+
+The Publisher has recognized completion of the corrected current Candidate Publication lifecycle package.
 
 The Publisher has not authorized:
 
