@@ -6,7 +6,7 @@ This directory contains subordinate operational specifications, policies, templa
 
 The current Charter reference version is:
 
-`PROGRAM-0001 v1.0 Candidate`
+`PROGRAM-0001 v1.0 Candidate Publication`
 
 ---
 
@@ -149,7 +149,7 @@ Their requirements support the current Charter Candidate Publication but do not 
 
 ## 5. Lifecycle Relationships
 
-The current sequence is:
+The subordinate operational document sequence is:
 
 1. `PROGRAM-0001-OPSPEC-001 v1.0 Draft`
 2. `PROGRAM-0001-CHECKSUM-POLICY-001 v1.0 Draft`
@@ -158,10 +158,19 @@ The current sequence is:
 5. `PROGRAM-0001-CHECKSUM-POLICY-001 v1.0 Review`
 6. `PROGRAM-0001-OPERATIONS-REGISTRY-001`
 7. `PROGRAM-0001-OPERATIONS-PUBLISHER-ACK-001`
-8. application of the integrity requirements to `PROGRAM-0001 v1.0 Candidate`
-9. creation of `PROGRAM-0001-INTEGRITY-001`
 
-The Draft artifacts remain historical predecessor versions.
+The Charter-level application sequence is:
+
+1. application of the operational record and checksum requirements to `PROGRAM-0001 v1.0 Candidate Publication`;
+2. canonical second-party review through `PROGRAM-0001-REVIEW-012`;
+3. identifier correction through `PROGRAM-0001-DECISION-003`;
+4. verification through `PROGRAM-0001-INTEGRITY-003`;
+5. registration through `PROGRAM-0001-REGISTRY-007`;
+6. Publisher acknowledgment through `PROGRAM-0001-PUBLISHER-ACK-007`.
+
+The subordinate operational documents remain at Review status.
+
+The Draft artifacts and earlier Charter-level lifecycle records remain historical predecessor evidence.
 
 They must not be silently deleted or replaced.
 
@@ -234,23 +243,32 @@ The subordinate operational documents remain internal Review documents and must 
 
 ## 9. Candidate Publication Application
 
-The checksum policy and operational record specification were applied to the Charter Candidate Publication.
+The checksum policy and operational record specification were applied to the current Charter Candidate Publication.
 
-The resulting record set includes:
+The current Charter-level record set includes:
 
-- `PROGRAM-0001 v1.0 Candidate`;
-- `PROGRAM-0001-INTEGRITY-001`;
-- `PROGRAM-0001-CANDIDATE-DECISION-001`;
-- `PROGRAM-0001-REGISTRY-005`;
-- `PROGRAM-0001-PUBLISHER-ACK-005`.
+- `PROGRAM-0001 v1.0 Candidate Publication`;
+- `PROGRAM-0001-REVIEW-010` — canonical Editorial Disposition Review;
+- `PROGRAM-0001-REVIEW-011` — Candidate Publication Readiness Review;
+- `PROGRAM-0001-REVIEW-012` — canonical Second-party Review;
+- `PROGRAM-0001-DECISION-001` — Candidate Publication transition;
+- `PROGRAM-0001-DECISION-002` — package reconciliation;
+- `PROGRAM-0001-DECISION-003` — review identifier correction;
+- `PROGRAM-0001-INTEGRITY-003`;
+- `PROGRAM-0001-REGISTRY-007`;
+- `PROGRAM-0001-PUBLISHER-ACK-007`.
 
-The Candidate artifact uses:
+The current Candidate artifact uses:
 
 - SHA-256;
-- a full 64-character lowercase hexadecimal digest;
-- a recorded file size;
-- a canonical path;
+- checksum `426ab2347cd2591313065ac0c05474fd4bc81f71eb4b57ebfd97bb8cb1b49b6a`;
+- a recorded file size of 65839 bytes;
+- canonical path `program/PROGRAM-0001/PROGRAM-0001-v1.0-candidate-publication.md`;
 - reproducible verification instructions.
+
+Earlier Candidate, integrity, registry, Publisher, and review records remain preserved as historical or superseded evidence.
+
+The subordinate operational documents remain Review documents and have not independently reached Candidate Publication.
 
 Candidate Publication remains distinct from Approved Publication.
 
