@@ -1,0 +1,26 @@
+{
+  "task_id": "AISET-GALLEY-EXAMPLE-000",
+  "allowed_paths": [
+    "tools/aiset-galley/aiset-galley.py",
+    "tools/aiset-galley/README.md",
+    "tools/aiset-galley/config.example.json",
+    "docs/operations/AISET-GALLEY-OPERATOR.md"
+  ],
+  "forbidden_paths": [
+    ".git",
+    ".github",
+    "src",
+    "infrastructure",
+    "sandbox"
+  ],
+  "protected_source_paths": [
+    ".git",
+    ".github",
+    "src",
+    "infrastructure",
+    "sandbox"
+  ],
+  "state_dir": "",
+  "evidence_dir": "",
+  "approval_file": ""
+}
